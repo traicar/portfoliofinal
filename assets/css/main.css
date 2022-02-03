@@ -264,7 +264,7 @@ figure figcaption {
 }
 
 /*button*/
-#button1, #button2, #button3, #button4{
+#button1, #button2, #button3, #button4, #button9{
   background-color: #b369f0;
   border: none;
   color: white;
@@ -290,7 +290,7 @@ figure figcaption {
 		border: 2px solid transparent;
 	}
 
-	#button7{
+	#button7, #button8{
 		background-color: #90e45f; 
 		border: none;
 		color: white;
@@ -303,7 +303,7 @@ figure figcaption {
 		border: 2px solid transparent;
 	}
 
-#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover, #button7:hover  {
+#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover, #button7:hover, #button8:hover, #button9:hover {
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
