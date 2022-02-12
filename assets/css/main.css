@@ -208,6 +208,12 @@ section{
 		line-height: 1.5;
 		letter-spacing: -0.025em;
 	}
+	
+	@media (max-width:600px) {
+		h2.responsive {
+			font-size: 24px;
+		}
+	}
 
 /* paragraphs */
 p {
