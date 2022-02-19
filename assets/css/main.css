@@ -120,6 +120,14 @@ section{
 	 li {
     list-style: none;
   }
+
+	/*list of things I learnt*/
+	li.list{
+		list-style-type:"\1F913";
+		text-align: justify;
+		margin-left: 70px;
+		}
+	
   
 	a {
 		text-decoration:rgba(255, 255, 255, 0.075);
@@ -134,11 +142,9 @@ section{
 	strong {
 		color: #ffffff;
 		font-weight: 700;
-	}
+		}
 
 	/* nav */
-
-
 
 	.navbar ul li a {
 		-moz-transition: font-size 0.2s ease;
@@ -270,7 +276,7 @@ figure figcaption {
 }
 
 /*button*/
-#button1, #button2, #button3, #button4, #button9{
+#button1, #button2, #button3, #button4,#button10, #button9{
   background-color: #b369f0;
   border: none;
   color: white;
@@ -309,7 +315,7 @@ figure figcaption {
 		border: 2px solid transparent;
 	}
 
-#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover, #button7:hover, #button8:hover, #button9:hover {
+#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover, #button7:hover, #button8:hover, #button9:hover, #button10:hover {
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -325,47 +331,9 @@ figure figcaption {
 small{
 	font-size:15px;
 }
-/*
 
-.contact {
-	display: -moz-flex;
-	display: -webkit-flex;
-	display: -ms-flex;
-	display: flex;
-	width: 100%;
-	margin: 0 0 3em 0;
-	padding: 0;
-	list-style:inherit;
-	cursor: default;
+/*p description of projects*/
+.description{
+	padding-right: 50px;
+	text-align: justify;
 }
-		.contact li {
-			-moz-flex: 1;
-			-webkit-flex: 1;
-			-ms-flex: 1;
-			flex: 1;
-			padding: 1.5em;
-			text-align: center;
-			font-weight: 900px;
-				}
-
-			.contact li.style1 {
-				background-color: #c79cc8;
-			}
-
-			.contact li.style2 {
-				background-color:#efa8b0; 
-				margin-block: 30px;
-        margin-right: 40px;
-        margin-left: 40px;
-						
-			}
-
-			.contact li.style3 {
-				background-color: #b19bf0;
-				margin-block: 30px;
-        margin-right: 40px;
-        margin-left: 40px;
-			
-			}
-
-		span*/
